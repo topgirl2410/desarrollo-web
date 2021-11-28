@@ -5,13 +5,14 @@
     --secundario: #0097a7;
     --gris: #97a5a5;
     --amarillo: #f1c944;
+    --grisClaro: #dfe9f3;
 
 }
 
 /* Globales */
 html {
     font-size: 62.5%;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Hack para Box Model */
 }
 
 *, *:before, *:after {
@@ -22,7 +23,7 @@ body {
     font-size: 16px;
     /*1rem = 10px*/
     font-family: 'Krub', sans-serif;
-    /*background-color: khaki;*/
+    background-image: linear-gradient(to top,var(--grisClaro) 0%, var(--blanco) 100% );
 }
 
 .contenedor {
