@@ -286,3 +286,11 @@ h1, h2, h3 {
 .enviar .boton {
     width: 100%;
 }
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    color: var(--oscuro)
+}
