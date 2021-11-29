@@ -44,6 +44,7 @@ body {
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
 }
 
 @media (min-width: 768px) {
@@ -51,6 +52,11 @@ body {
         width: auto;
     }
 }
+
+.boton:hover {
+    cursor: pointer;
+}
+
 
 .sombra {
     -webkit-box-shadow: 0px 5px 15px 0px rgba(107, 105, 107, 0.49);
@@ -90,6 +96,25 @@ h1, h2, h3 {
 /* Titulos */
 .titulo span {
     font-size: 2rem;
+}
+
+/* Utilidades */
+.w-sm-100 {
+    width: 100%;
+}
+@media (min-width: 768px){
+    .w-sm-100 {
+        width: auto;
+    }
+}
+
+
+.flex {
+    display: flex;
+}
+
+.alinear-derecha {
+    justify-content: flex-end;
 }
 
 /* Navegacion Principal */
@@ -201,7 +226,8 @@ h1, h2, h3 {
 
 .formulario {
     background-color: var(--gris);
-    width: min( 60rem, 100%); /** Utiliza el valor mas pequeño **/
+    width: min(60rem, 100%);
+    /** Utiliza el valor mas pequeño **/
     margin: 0 auto;
     padding: 2rem;
 }
@@ -217,4 +243,30 @@ h1, h2, h3 {
     font-weight: bold;
     margin-bottom: 2rem;
     color: var(--grisClaro)
+}
+
+/* Contenedor campos*/
+
+.contenedor-campos {}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.enviar .boton {
+    width: 100%;
 }
