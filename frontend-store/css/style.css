@@ -41,7 +41,7 @@ a {
 
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .contenedor {
@@ -66,4 +66,7 @@ h2{
 h3{
     font-size: 2.4rem;
 }
-
+/*logotipo*/
+.wolf {
+    max-width: 10%;
+}
