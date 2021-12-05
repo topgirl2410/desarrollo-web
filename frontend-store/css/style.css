@@ -54,7 +54,7 @@ h1, h2, h3 {
     text-align: center;
     color: var(--secundario);
     font-family: var(--fuentePrincipal);
-    
+
 }
 
 h1 {
@@ -83,12 +83,14 @@ h3 {
     margin: 3rem;
 
 }
+
 /*Footer*/
 
 .footer {
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
     margin-top: 2rem;
+    >
 }
 
 .footer__texto {
@@ -104,6 +106,7 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    /* Separacion forma nueva*/
 }
 
 .navegacion__enlace {
@@ -112,7 +115,32 @@ h3 {
     font-size: 3rem;
 
 }
+
+
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
     color: var(--secundario)
+}
+
+
+/* Experiencias */
+
+.producto {
+
+}
+
+producto__imagen {
+
+}
+
+producto__informacion {
+
+}
+
+producto__nombre {
+
+}
+
+.producto__precio {
+    
 }
