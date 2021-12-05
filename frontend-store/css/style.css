@@ -14,6 +14,8 @@ html {
     font-size: 62.5%;
 }
 
+'Arvo', serif;
+
 
 
 *, *:before, *:after {
@@ -59,14 +61,46 @@ h1 {
     font-size: 4rem;
 }
 
-h2{
+h2 {
     font-size: 3.2rem;
 }
 
-h3{
+h3 {
     font-size: 2.4rem;
 }
-/*logotipo*/
+
+/*header*/
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+}
+
 .wolf {
-    max-width: 10%;
+    width: 10%;
+    position: relative;
+    left: 80rem;
+    margin: 3rem;
+
+}
+
+
+/*Navegacion*/
+.navegacion {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion__enlace {
+    font-family: 'Arvo', serif;
+    color: var(--blanco);
+    font-size: 3rem;
+
+}
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
+    color: var(--secundario)
 }
