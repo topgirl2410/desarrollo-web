@@ -40,3 +40,11 @@ h1 {
 
 
 /** Codigo css grid aqui**/
+
+@media (min-width: 768px){
+    .dos-columnas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
