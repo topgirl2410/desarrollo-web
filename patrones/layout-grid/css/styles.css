@@ -74,6 +74,7 @@ p {
 @media (min-width: 992px) {
     .layout-shifter {
         grid-template-areas: "contenido sidebar";
+        column-gap: 2rem;
     }
 
     .sidebar {
