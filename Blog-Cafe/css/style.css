@@ -75,3 +75,22 @@ img {
 .centrar-texto {
     text-align: center;
 }
+
+/** HEADER **/
+
+
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* primer valor es el horizontal, el segundo valor es el vertical(por eso se pone center dos veces)*/
+
+}
+
+.header__texto {
+    color: var(--blanco);
+    text-align: center;
+    margin-top: 5rem;
+}
