@@ -33,6 +33,7 @@ body {
 .contenedor {
     max-width: 120rem;
     width: 90%;
+    width: min(90%, 120rem);
     margin: 0 auto;
 }
 
@@ -103,6 +104,11 @@ img {
         margin-top: 15rem;
     }
 }
+
+.barra {
+    padding-top: 4rem;
+}
+
 
 @media (min-width: 768px) {
     .barra {
@@ -185,7 +191,7 @@ img {
     background-color: var(--negro);
 
 }
-
+margin
 .boton--secundario {
     background-color: var(--primario);
 }
@@ -221,4 +227,11 @@ img {
 
 h4 {
     font-size: 2.5rem;
+}
+
+
+footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
