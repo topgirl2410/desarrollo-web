@@ -42,6 +42,7 @@ a {
 
 h1, h2, h3, h4 {
     font-family: var(--fuenteHeading);
+    line-height: 1.2;
 }
 
 h1 {
@@ -154,7 +155,8 @@ img {
     margin-bottom: 2rem;
 }
 
-.entrada:last-of-type { /*Selectores*/
+.entrada:last-of-type {
+    /*Selectores*/
     border: none;
     margin-bottom: 0;
 }
@@ -171,14 +173,52 @@ img {
     margin-bottom: 2rem;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .boton {
-        display: inline-block; /* Botones mas pequeños, dejando margenes*/
+        display: inline-block;
+        /* Botones mas pequeños, dejando margenes*/
 
     }
 }
 
 .boton--primario {
     background-color: var(--negro);
-    
+
+}
+
+.boton--secundario {
+    background-color: var(--primario);
+}
+
+.cursos {
+    list-style: none;
+    /*Quitar los puntos de las listas*/
+}
+
+.widget-curso {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.widget-curso:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.widget-curso__info {
+    font-weight: normal;
+}
+
+.widget-curso__label,
+.widget-curso__info {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 2.5rem;
 }
