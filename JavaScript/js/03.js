@@ -4,15 +4,14 @@
 
 const producto = 'Audifonos Gamer'; // Iniciar variable y asignarle un valor
 
-//const disponible; //no podemos iniciar la variable pero sin valor
-
-// producto = true; Reasignando el valor de la variable
-
+const disponible = true; 
 
 
 const producto1 = 'Computadora',
     disponible1 = true,
     categoria = 'Computadora';
+
+const disponible_ = true;
 
 
 // Estilos de variables
