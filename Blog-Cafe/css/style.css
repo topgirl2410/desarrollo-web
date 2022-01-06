@@ -252,10 +252,7 @@ footer {
     padding: 3rem 0;
     border-bottom: 1px solid var(--gris);
 }
-img {
-    max-width: 35rem;
-    
-}
+
 @media (min-width: 768px) {
     .curso {
         display: grid;
