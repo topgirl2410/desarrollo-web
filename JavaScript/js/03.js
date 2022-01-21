@@ -4,7 +4,7 @@
 
 const producto = 'Audifonos Gamer'; // Iniciar variable y asignarle un valor
 
-const disponible = true; 
+let disponible = true; 
 
 
 const producto1 = 'Computadora',
