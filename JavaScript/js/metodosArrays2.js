@@ -31,5 +31,20 @@ resultado = carrito.some(function (producto) {
     return producto.nombre === 'Telefono movil' // acceder a cualquier propiedad en este caso nombre
 });
 
+// Reduce 
+
+/**resultado = carrito.reduce(function(total, producto){
+    return total + producto.precio
+}, 0);*/
+
+resultado = carrito.reduce((total, producto) => total + producto.precio, 0);
+
+
+// Filter 
+
+resultado = carrito.filter(function(producto){
+    return producto.precio > 400
+})
+
 
 console.log(resultado);
