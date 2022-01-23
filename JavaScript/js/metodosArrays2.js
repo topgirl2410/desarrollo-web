@@ -42,9 +42,19 @@ resultado = carrito.reduce((total, producto) => total + producto.precio, 0);
 
 // Filter 
 
-resultado = carrito.filter(function(producto){
+resultado = carrito.filter(function (producto) {
     return producto.precio > 400
-})
+});
+
+
+resultado = carrito.filter(function (producto) {
+    return producto.nombre === 'Telefono movil'
+});
+
+resultado = carrito.filter(function (producto) {
+    return producto.nombre !== 'Telefono movil'
+});
+
 
 
 console.log(resultado);
