@@ -13,8 +13,9 @@ sumar(15, 30);
 
 
 
-const sumar2 = function(){
-    console.log(1 + 1);
+const sumar2 = function (n1, n2) {
+    console.log(n1 + n2);
 }
 
-sumar2();
+sumar2(5, 10);
+
