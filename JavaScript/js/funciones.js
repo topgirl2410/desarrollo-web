@@ -16,3 +16,38 @@
  * 
  * Las declaraciones de JS que definen la función, encerradas entre llaves, {...}.
  */
+
+
+// Declaración de función
+
+function sumar() {    // La creas;
+    console.log(10 + 10);
+}
+
+sumar();  // Se invoca;
+
+
+//Expresión de la función 
+
+const sumar2 = function(){
+    console.log(1 + 1);
+}
+
+sumar2();
+
+/* IIFE (no hace falta llamarlas, se invocan ellas mismas) protege las variables y funciones para que no se mezclen con otros archivos.
+
+(function(){
+    console.log('Esto es una función');
+})();*/
+
+
+//Más sobre funciones
+
+const numero1 = 20;
+const numero2 = "20";
+
+
+console.log(parseInt(numero2));  //parseInt() es una función.
+console.log(numero1.toString());  // .toString() es un método.
+
