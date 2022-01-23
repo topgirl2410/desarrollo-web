@@ -24,3 +24,9 @@ const meses = ['Enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio'];
 meses.splice(2, 1); // elimina el elemento que tu le indiques, primero es la posicion del elemento, segundo cuantos quieres borrar desde alli;
 
 console.table(meses);
+
+// Rest OPerator o Spread
+
+const nuevoArray = [...meses,'agosto'];
+
+console.log(nuevoArray);
