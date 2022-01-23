@@ -11,7 +11,8 @@ console.table(meses);
 
 // Metodos para Arrays;
 
-numeros.push(60, 70, 80, 90); // agrega un elemento al array;
+numeros.push(60, 70, 80, 90); // agrega los elementos al final de array;
 
+numeros.unshift(-10, -20, -30); // agrega los elementos al principio del array;
 
 console.table(numeros) // Muestra datos tabulares como una tabla.
