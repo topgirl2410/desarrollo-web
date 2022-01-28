@@ -23,10 +23,12 @@ if (efectivo > carrito) {
 
 // Tercer ejercicio
 
-const rol = 'ADMINISTRADOR';
+const rol = 'VISITANTE';
 
 if(rol === 'ADMINISTRADOR') {
     console.log('Acceso a todo el sistema');
+}else if(rol === 'EDITOR') {
+    console.log('Eres editor, puedes entrar pero con limitaciones');
 }else{
     console.log('Este usuario no tiene permisos')
 }
