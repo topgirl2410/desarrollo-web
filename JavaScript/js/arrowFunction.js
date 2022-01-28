@@ -25,7 +25,6 @@ const carrito = [
     { nombre: 'Altavoces', precio: 300 },
 ]
 
-// forEach 
 
 meses.forEach(mes => {
     if (mes == 'marzo') {
@@ -33,34 +32,26 @@ meses.forEach(mes => {
     }
 });
 
+let resultado;
 
 resultado = carrito.some(producto => {
     return producto.nombre === 'Telefono movil'
 });
 
 
-/**resultado = carrito.reduce(function(total, producto){
+resultado = carrito.reduce(function(total, producto){
     return total + producto.precio
-}, 0);*/
+}, 0);
 
 resultado = carrito.reduce((total, producto) => total + producto.precio, 0);
-
-
-// Filter 
-
-resultado = carrito.filter(producto => {
-    return producto.precio > 400
-});
-
-
-resultado = carrito.filter(producto => {
-    return producto.nombre === 'Telefono movil'
-});
-
-resultado = carrito.filter(producto => {
-    return producto.nombre !== 'Telefono movil'
-});
-
-
-
 console.log(resultado);
+
+
+resultado = carrito.filter(producto => producto.precio > 400);
+console.log(resultado);
+
+resultado = carrito.filter(producto => producto.nombre === 'Telefono movil');
+console.log(resultado);
+
+resultado = carrito.filter(producto =>  producto.nombre !== 'Telefono movil');
+console.log(resultado)
